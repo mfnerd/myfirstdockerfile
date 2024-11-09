@@ -3,7 +3,7 @@
 #             You can also use python:3.7.5-slim-buster for a Debian image
 
 #here, we want to specify the programming language and OS. Go look at Dockerhubfor most current version
-FROM python:3.7.5-alpine
+FROM python:3.10.15-alpine
 
 #we need a folder for the app
 RUN mkdir /dockerapp1
